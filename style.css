@@ -1,0 +1,74 @@
+/* font */
+.inter-font{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+/* Shared classes */
+.display-flex{
+    display: flex;
+}
+.bold{
+    font-weight: bold;
+}
+.black1{
+    color: black;
+}
+
+
+
+/* navbar */
+.p-nav{
+    justify-content: center;
+}
+.navbar{
+    width: 72rem;
+    height: 4.43rem;
+    /* background-color: skyblue; */
+    
+    justify-content: space-between;
+    margin:2rem 10rem 8rem 10rem;
+}
+.nav-link{
+    text-decoration: none;
+    font-size: 1rem;
+}
+.nav-item{
+    list-style: none;
+    padding-right: 3rem;
+}
+.nav-item-color{
+    color: #8987A1;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:576px) {
+    .hide-mobile{
+        display: none;
+    }
+    .navbar{
+        margin: 4rem 1rem 2rem 1rem ;
+        background-color: pink;
+
+    }
+    .nav-img img{
+        height: 100%;
+        width: 100%;
+        
+    }
+    .nav-links{
+        align-items: center;
+        
+    }
+   
+}
