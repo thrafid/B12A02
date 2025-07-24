@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 /* font */
 .inter-font{
   font-family: "Inter", sans-serif;
@@ -31,6 +36,11 @@
 }
 .orange{
     color: #E95A08;
+}
+
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
 }
 
 /* header */
@@ -116,12 +126,69 @@
     color: #E95A08;
 }
 
+/* plants section */
+/* .plants{
+    max-width: 1140px;
+    
+} */
+.plants{
+    max-width: 1140px;
+    margin:0 auto;
+}
+.plant-title{
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    padding-left: 100px;
+    
+}
+.plant-subtitle{
+    font-size: 22px;
+    text-align: center;
+}
+.plant-description{
+    padding-top: 120px;
+    padding-bottom: 49px;
+}
+.card-img{
+    padding-bottom: 20px;
+}
+.card-title{
+   font-size: 22px;
+   font-weight:500;
+   padding-bottom: 20px;
+}
+.card-subtitle{
+    font-size: 22px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.card-btn{
+    background-color:#E95A08 ;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 19px 80px;
+    color: white;
+    border: none;
+}
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.card{
+    max-width: 270px;
+    max-height: 485px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+}
 
 
 
 
 
-@media screen and (max-width:576px) {
+@media screen and (max-width:676px) {
     .hide-mobile{
         display: none;
     }
@@ -161,6 +228,49 @@
     .banner-script p{
         font-size: 14px;
         margin-bottom: 0px;
+    }
+    .plants{
+    max-width: 393px;
+    
+}
+    .card-container{
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 362px;
+        
+    }
+    .plant-title{
+        font-size: 24px;
+        text-align: center;
+        padding-left: 30px;
+    }
+    .plant-subtitle{
+        font-size: 14px;
+        text-align: center;
+    }
+    
+    
+    plant-description{
+        text-align: center;
+    }
+    .card{
+        max-width: 171px;
+    }
+    .card-img{
+        max-width: 171px;
+        max-height: 197px;
+    }
+    .card-btn{
+        max-width: 171px;
+        max-height: 50px;
+        padding:10px 30px 10px 30px;
+        font-size: 16px;
+    }
+    .card-title{
+        font-size: 16px;
+
+    }
+    .card-subtitle{
+        font-size: 16px;
     }
 
 }
