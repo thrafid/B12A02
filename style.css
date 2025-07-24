@@ -369,6 +369,11 @@
         text-align: left;
     }
 
-
+    .latest-description{
+    font-size: 14px;
+    }
+    .latest-title{
+        font-size: 24px ;
+    }
 
 }
