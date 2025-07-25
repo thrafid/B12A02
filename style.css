@@ -328,6 +328,50 @@
     font-size: 1.75rem; 
 }
 
+/* join */
+.join{
+    margin: 0 auto;
+    max-width: 1440px;
+    max-height: 533px;
+    height: 533px;
+    background-image: url(./assets/news-letter-bg.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    /* border: 4px solid red; */
+
+}
+
+.join-top{
+    font-size: 50px;
+    font-weight: bold; 
+    color: white;
+}
+.join-btn{
+    background-color: #E95A08;
+    color: white;
+    padding: 1rem 3rem;
+    width: 186px;
+    height: 50px;
+    border: none;
+}
+.join-container input{
+    width: 644px;
+    height: 50px;
+    padding-left: 1.125rem;
+}
+.join-container{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    /* border: 3px solid red; */
+    gap: 1.25rem;
+
+}
 
 @media screen and (max-width:676px) {
     .hide-mobile{
@@ -471,6 +515,26 @@
     }
     #zabo2{
         font-size: 1rem;
+    }
+
+    .join{
+        width: 393px;
+        height: 275px;
+
+    }
+    .join-top{
+        font-size: 1.125rem;
+
+    }
+    .join-btn{
+        font-size: 1rem;
+        padding: 1rem 0.8rem ;
+        width: 103px;
+        height: 50px;
+    }
+    .join-container input{
+        width: 218px;
+        height: 50px;
     }
 
 }
