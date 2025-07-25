@@ -330,7 +330,7 @@
 
 /* join */
 .join{
-    margin: 0 auto;
+    margin: 0 0;
     max-width: 1440px;
     max-height: 533px;
     height: 533px;
@@ -447,10 +447,12 @@
     .banner img{
     max-width: 393px;
     max-height: 245px;
+    margin-bottom: 1.75rem;
 }
     
 .banner-title {
         width: 361px;
+        margin-bottom: 1rem;
         
     }
     .banner-title h1{
@@ -473,6 +475,7 @@
         font-size: 24px;
         text-align: center;
         padding-left: 30px;
+        margin-bottom: 1rem;
     }
     .plant-subtitle{
         font-size: 14px;
@@ -540,6 +543,7 @@
     }
     .latest-title{
         font-size: 24px ;
+        margin-bottom: 1rem;
     }
 
     .img-collage {
@@ -564,7 +568,7 @@
     }
 
     .join{
-        width: 430.4px;
+        width: 375.20px;
         height: 275px;
         /* margin-left: 0;
         margin-right: 0; */
